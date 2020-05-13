@@ -2093,7 +2093,7 @@ MonoBehaviour:
   rightLineRender: {fileID: 1296364322}
   leftPos: {fileID: 1308126696}
   leftLineRender: {fileID: 1308126697}
-  boom: {fileID: 0}
+  boom: {fileID: 5094467638189716961, guid: 9b97b4fa2ef1a4be28db23dee2b9e049, type: 3}
 --- !u!58 &1108704225
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2974,7 +2974,7 @@ MonoBehaviour:
   rightLineRender: {fileID: 1296364322}
   leftPos: {fileID: 1308126696}
   leftLineRender: {fileID: 1308126697}
-  boom: {fileID: 0}
+  boom: {fileID: 5094467638189716961, guid: 9b97b4fa2ef1a4be28db23dee2b9e049, type: 3}
 --- !u!58 &1363467732
 CircleCollider2D:
   m_ObjectHideFlags: 0

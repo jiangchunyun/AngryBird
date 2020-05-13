@@ -59,6 +59,9 @@ public class Bird : MonoBehaviour
         isClick = false;
         rg.isKinematic = false;
         Invoke("Fly", 0.1f);
+        // 禁用画线组件
+        rightLineRender.enabled = false;
+        leftLineRender.enabled = false;
     }
 
     private void Fly() {
@@ -67,6 +70,10 @@ public class Bird : MonoBehaviour
     }
 
     private void RenderLine() {
+        // 重新启用
+        rightLineRender.enabled = true;
+        leftLineRender.enabled = true;
+
         rightLineRender.SetPosition(0, rightPos.position);
         rightLineRender.SetPosition(1, transform.position);
 
