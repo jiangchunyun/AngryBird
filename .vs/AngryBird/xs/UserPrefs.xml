@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{954AB0CE-9E6A-D010-66E2-346781543F80}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BirdEffect.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Pig.cs">
     <Files>
       <File FileName="Assets/Scripts/Bird.cs" Line="76" Column="1" />
-      <File FileName="Assets/Scripts/Pig.cs" />
+      <File FileName="Assets/Scripts/Pig.cs" Line="36" Column="40" />
       <File FileName="Assets/Scripts/Boom.cs" />
       <File FileName="Assets/Scripts/GameManager.cs" />
       <File FileName="Assets/Scripts/BirdEffect.cs" Line="7" Column="2" />
@@ -13,7 +13,7 @@
           <Node name="AngryBird" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="BirdEffect.cs" selected="True" />
+                <Node name="Pig.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -23,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="508ced8c-e063-48d8-9a38-4a401d203c5a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a82ce83f-cc98-4c12-9902-086dbd3b3d12" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
