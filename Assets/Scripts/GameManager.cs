@@ -8,7 +8,8 @@ public class GameManager : MonoBehaviour
     public List<Pig> pigs;
     public static GameManager instance;
     private Vector3 originPos;
-
+    public GameObject win;
+    public GameObject lose;
     private void Awake()
     {
         instance = this;
@@ -45,11 +46,14 @@ public class GameManager : MonoBehaviour
                 Initialized();
             }
             else {
-
+                lose.SetActive(true);
             }
         } else
         {
-
+            win.SetActive(true);
         }
+    }
+
+    public void ShowStars() {
     }
 }
