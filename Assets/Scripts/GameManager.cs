@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public List<Bird> birds;
     public List<Pig> pigs;
+    public List<GameObject> stars;
     public static GameManager instance;
     private Vector3 originPos;
     public GameObject win;
@@ -48,12 +49,20 @@ public class GameManager : MonoBehaviour
             else {
                 lose.SetActive(true);
             }
-        } else
-        {
+        } else {
             win.SetActive(true);
         }
     }
 
     public void ShowStars() {
+        StartCoroutine("ShowStarsCoroutine");
+    }
+
+    IEnumerator ShowStarsCoroutine() {
+        for (int i = 0; i < birds.Count + 1; i++)
+        {
+            yield return new WaitForSeconds(0.3f);
+            stars[i].SetActive(true);
+        }
     }
 }
